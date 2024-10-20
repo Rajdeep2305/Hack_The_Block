@@ -46,11 +46,17 @@ class UserClass {
     void creditTokens(int amount) {
         totalTokens += amount;
     }
+
+    // Get a random token from the user's tokens
+    int getRandomToken(Random random) {
+        return tokenNumbers[random.nextInt(totalTokens)]; // Select a random token from available tokens
+    }
 }
 
 public class TokenSystem {
     static List<UserClass> userClassObj = new ArrayList<>(); // Use a List to store user objects
     static Scanner sc = new Scanner(System.in); // Single Scanner instance
+    static Random random = new Random(); // Random instance for token selection
 
     // Add people 
     static void AddThePeople() {
@@ -110,6 +116,10 @@ public class TokenSystem {
                 System.out.println("Invalid vote. Please enter 'X' or 'Y'.");
                 continue;
             }
+
+            // Select a random token from the current user
+            int selectedToken = currentUser.getRandomToken(random);
+            System.out.println(currentUser.name + " has voted using token number: " + selectedToken);
 
             currentUser.voteOption = vote;
             currentUser.updateParticipation(); // Update participation count
@@ -195,21 +205,21 @@ public class TokenSystem {
             Key = Character.toUpperCase(Key); // Change to uppercase for easier comparison
 
             switch (Key) {
-                case 'A': //Add people
+                case 'A': // Add people
                     AddThePeople();
                     break;
-                case 'S':// Start game
+                case 'S': // Start game
                     StartTheVote();
                     break;
-                case 'X':// Check
+                case 'X': // Check
                     eligible();
                     break;
-                case 'E'://Exit
+                case 'E': // Exit
                     System.exit(0);
                     break;
                 default:
                     System.out.println("Invalid option. Please try again.");
             }
-        } while (true); //For continue the process
+        } while (true); // For continue the process
     }
 }
