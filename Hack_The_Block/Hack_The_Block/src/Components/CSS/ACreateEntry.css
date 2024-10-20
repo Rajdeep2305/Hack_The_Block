@@ -1,0 +1,20 @@
+.pin{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: flex;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center; 
+}
+.continue{
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.continue:hover{
+    background: #ffffff36;
+}

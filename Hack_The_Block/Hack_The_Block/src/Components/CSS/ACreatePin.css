@@ -1,0 +1,33 @@
+.create-pin{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: flex;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+#create-pin{
+    width: 58%;
+}
+.confirm-pin{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: flex; 
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+#confirm-pin{
+    width: 53%;
+}
+.confirm{
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.confirm:hover{
+    background: #ffffff36;
+}

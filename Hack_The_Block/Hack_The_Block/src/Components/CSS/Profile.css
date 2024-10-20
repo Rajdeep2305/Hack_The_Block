@@ -1,0 +1,23 @@
+.profile{
+    height: 60vh;
+    width: 40vw;
+    border: 1px solid;
+    border-color: #fff;
+    background-color: #123;
+    display: inline;
+}
+.photo{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%; 
+    background-color: #fff;
+    justify-content: center;
+    text-align: center;
+}
+.details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}

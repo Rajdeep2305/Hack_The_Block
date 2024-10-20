@@ -1,0 +1,9 @@
+:root{
+    height: 100vh;
+    width: 100vw;
+    background: #000;
+    color: #fff;
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities; 

@@ -1,0 +1,33 @@
+.email-otp{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: flex;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+#email-otp{
+    width: 58%;
+}
+.mobile-otp{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0; 
+    display: flex;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+#mobile-otp{
+    width: 53%;
+}
+.verify{
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.verify:hover{
+    background:#ffffff36;
+}

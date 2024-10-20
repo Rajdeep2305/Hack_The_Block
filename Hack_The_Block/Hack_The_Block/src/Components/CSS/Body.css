@@ -1,0 +1,77 @@
+.body{
+    height: 90vh;
+    width: 90vw;
+    border: 1px solid;
+    border-color: #fff;
+    background-color: #012;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.name{ 
+    display: flex;
+    text-align: center;
+    border: none;
+    width: 100%;
+    font-size: 50px;
+    justify-content: center;
+}
+.logo{
+    height: 100px;
+    width: 100px;
+    margin-right: 20px;
+    border-radius: 50%;
+    background-color: #fff;
+    cursor: pointer;
+    font-size: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: red;
+    font-weight: 900;
+}
+.main{
+    height: 60vh;
+    width: 60vw;
+    border-radius: 10px;
+    border-color: #fff;
+    border: 2px solid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.username{
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
+.token{
+    font-size: 50px;
+    height: 15vh;
+    justify-content: center;
+    align-items: center;
+}
+.option{
+    display: flex;
+    font-size: 20px;
+    height: 15vh;
+    justify-content: center;
+}
+.buy{
+    width: 20vw;
+}
+.sell{
+    width: 20vw;
+}
+.withdraw{
+    width: 20vw;
+}
+.choice{
+    display: flex;
+    font-size: 40px;
+    justify-content: space-evenly;
+}
+.vote{
+    cursor: pointer;
+}
