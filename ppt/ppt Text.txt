@@ -1,0 +1,1 @@
+The backend of the project has been implemented using Java, while the website's user interface has been designed in Figma, though it is only partially functional at the moment. Additionally, we have prepared a PowerPoint presentation that outlines and describes the entire project.
